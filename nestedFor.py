@@ -23,7 +23,19 @@ print("-----")
 
 rows=int(input("Enter number of rows: "))
 columns=int(input("Enter number of columns: "))
+
 for x in range(rows):
     for y in range(columns):
          print("*", end=" " )
     print()
+
+
+print("-----")
+rows=int(input("Enter number of rows: "))
+columns=int(input("Enter number of columns: "))
+symbol=input("Enter symbol to use: ")
+for x in range(rows):
+    for y in range(columns):
+         print(symbol, end=" " )
+    print()
+print("-----")
