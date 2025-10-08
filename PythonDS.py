@@ -43,3 +43,5 @@ print(fruits) #print the tuple of fruits
 #fruits=("apple", "banana", "cherry", "orange") #this will cause an error because tuples are immutable and do not support item assignment
 print(fruits) #print the tuple of fruits
 print(len(fruits)) #print the number of items in the tuple
+#fruits=("apple", "banana", "cherry") #recreate the tuple of fruits
+
